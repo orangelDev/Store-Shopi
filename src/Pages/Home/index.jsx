@@ -1,12 +1,11 @@
+import Layout from "../../components/Layout"
 
 function Home() {
 
     return (
-      <>
-        <div className='bg-green-600'>
-         Home
-        </div>
-      </>
+      <Layout>
+        Home
+      </Layout>
     )
   }
   
