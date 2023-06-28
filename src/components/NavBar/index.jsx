@@ -50,7 +50,7 @@ const NavBar = () => {
 					className={({ isActive }) => 
 							isActive ? activeStyle : undefined
 					}>
-						Jewelery
+						Jewelry
 					</NavLink>
 				</li>
 				<li>
