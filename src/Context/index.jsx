@@ -108,10 +108,6 @@ export const ShoppingCartProvider = ({children}) => {
     if (!searchByTitle && !searchByCategory) setFilteredItems(filterBy(null, items, searchByTitle, searchByCategory))
   }, [items, searchByTitle, searchByCategory])
 
-	
-	console.log('searchByTitle: ', searchByTitle)
-	console.log('filteredItems: ', filteredItems)
-
 
 
 	return (
