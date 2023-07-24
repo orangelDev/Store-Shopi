@@ -33,7 +33,7 @@ const NavBar = () => {
 			return (
 				<>
 					<li className="text-black/60">
-						orangeleando@gmail.com	
+						{parsedAccount?.email}
 					</li>
 					<li>
 					<NavLink 
